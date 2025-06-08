@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quiz Challenge</title>
+  <title>Ridge City's Quiz Challenge</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -93,7 +93,7 @@
 </head>
 <body>
 
-  <h1>Quiz Challenge</h1>
+  <h1>Ridge City</h1>
   <div id="quiz-box">
     <div id="question-container">Click "Start Quiz" to begin.</div>
     <div id="result"></div>
@@ -115,16 +115,16 @@
 
   <script>
     const quizData = [
-      { question: "What is the capital of France?", options: ["Berlin", "Madrid", "Paris", "Rome"], answer: "Paris" },
-      { question: "Which planet is known as the Red Planet?", options: ["Earth", "Mars", "Venus", "Jupiter"], answer: "Mars" },
-      { question: "Who wrote 'Hamlet'?", options: ["Shakespeare", "Hemingway", "Fitzgerald", "Twain"], answer: "Shakespeare" },
-      { question: "What is the largest mammal?", options: ["Elephant", "Giraffe", "Blue Whale", "Rhino"], answer: "Blue Whale" },
-      { question: "Which element has the chemical symbol 'O'?", options: ["Oxygen", "Gold", "Silver", "Osmium"], answer: "Oxygen" },
-      { question: "How many continents are there?", options: ["5", "6", "7", "8"], answer: "7" },
-      { question: "Which country is home to the kangaroo?", options: ["India", "South Africa", "Australia", "Brazil"], answer: "Australia" },
-      { question: "What is H2O?", options: ["Salt", "Oxygen", "Water", "Hydrogen"], answer: "Water" },
-      { question: "Which ocean is the largest?", options: ["Atlantic", "Indian", "Pacific", "Arctic"], answer: "Pacific" },
-      { question: "What color do you get when you mix red and blue?", options: ["Green", "Purple", "Orange", "Brown"], answer: "Purple" }
+      { question: "What is the name of the starting character in the game?", options: ["Duane Jones", "Helen Cooper", "Frank Evans", "Judith O’ Dea"], answer: "Frank Evans" },
+      { question: "Which unique skill does Nick Ramsey use in the game?", options: ["Stealth", "Engineering", "Mimic", "Berserker"], answer: "Engineering" },
+      { question: "What corporation triggered the zombie apocalypse", options: ["Helixicon", "Beta-Rad Laboratories", "NexCell Industries", "BioCrest Corp"], answer: "Beta-Rad Laboratories" },
+      { question: "What resource is the scarcest and most valuable in the game?", options: ["Food", "Ammo", "Medical supplies", "Fuel"], answer: "Fuel" },
+      { question: "What was the name of the synthetic cell created by the Progenitors?", options: ["Voidling Cell", "Red Whisper", "Prime Origin", "REAP Nine"], answer: "Prime Origin" },
+      { question: "What happens if the player remains unconscious for too long?", options: ["Permanent death", "Zombie transformation", "Movement penalty", "No effect"], answer: "Zombie transformation" },
+      { question: "What skill improves the player’s ability to craft weapons and items?", options: ["Distract", "Survival", "Engineering", "Stealth"], answer: "Stealth" },
+      { question: "Which environment is most dangerous for players?", options: ["Urban ruins", "Abandoned hospital", "Underground tunnels", "Forest outskirts"], answer: "Urban ruins" },
+      { question: "How can the player distract large groups of zombies?", options: ["Throwing noise-making devices", "Setting fires", "Using grenades", "All of the above"], answer: "All of the above" },
+      { question: "What theme does the game primarily explore?", options: ["Hope and rebuilding", "Isolation and survival", "Revenge and justice", "Chaos and anarchy"], answer: "Isolation and survival" }
     ];
 
     let shuffledQuiz = [];
